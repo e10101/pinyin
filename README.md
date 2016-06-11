@@ -1,7 +1,12 @@
 # ys-pinyin
 ## 基于hotoo/pinyin做修改
+
 本修改版本作者:Yishi Guo
+
+## 修改内容
+
 可返回输入的字符,以便确定转换的拼音是哪个汉字.
+
 ------------------------
 
 [![NPM version][npm-badge]][npm-url]
