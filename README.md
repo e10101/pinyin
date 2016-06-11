@@ -1,6 +1,8 @@
-# 汉字拼音转换工具。
-
----
+# ys-pinyin
+## 基于hotoo/pinyin做修改
+本修改版本作者:Yishi Guo
+可返回输入的字符,以便确定转换的拼音是哪个汉字.
+------------------------
 
 [![NPM version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
@@ -28,7 +30,6 @@
 > Python 版请关注 [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin)
 
 ---
-
 ## 特性
 
 * 根据词组智能匹配最正确的拼音。

@@ -1,6 +1,6 @@
 {
-  "name": "pinyin",
-  "version": "2.7.3",
+  "name": "ys-pinyin",
+  "version": "0.0.6",
   "description": "汉语拼音转换工具。",
   "files": [
     "bin",
@@ -22,20 +22,6 @@
   "bin": {
     "pinyin": "./bin/pinyin"
   },
-  "directories": {
-    "example": "examples",
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hotoo/pinyin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hotoo/pinyin/issues"
-  },
-  "scripts": {
-    "test": "make test"
-  },
   "dependencies": {
     "commander": "~1.1.1",
     "object-assign": "^4.0.1"
@@ -51,20 +37,5 @@
     "mocha": "1.17.1",
     "request": "2.33.0"
   },
-  "spm": {
-    "main": "lib/web-pinyin.js",
-    "devDependencies": {
-      "expect.js": "0.3.1",
-      "url": "1.2.0"
-    },
-    "build": {
-      "babel": {}
-    },
-    "tests": "tests/*-spec.js",
-    "dependencies": {
-      "object-assign": "~4.0.1"
-    }
-  },
-  "browser": "lib/web-pinyin.js",
   "license": "MIT"
 }
