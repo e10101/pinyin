@@ -1,6 +1,6 @@
 {
   "name": "ys-pinyin",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "汉语拼音转换工具。",
   "files": [
     "bin",
